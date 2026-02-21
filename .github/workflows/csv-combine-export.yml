@@ -26,6 +26,8 @@ on:
           - "JP"
           - "US"
           - "both"
+  schedule:
+    - cron: '30 6 * * *'   # 毎日 日本時間 15:30 に自動実行
 
 jobs:
   combine-csv:
