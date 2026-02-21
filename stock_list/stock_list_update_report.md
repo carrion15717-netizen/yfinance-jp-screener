@@ -1,22 +1,23 @@
 # 📋 Stock List Update Report
 
-**Generated:** Tue Oct 14 07:24:25 UTC 2025
-**Reason:** リスト更新
+**Market:** JP
+**Generated:** Sat Feb 21 13:29:21 UTC 2026
+**Reason:** Manual stock list update
 **Workflow:** 📋 Stock List Update
 
-## 📊 Master Stock List
+## 📊 Master List
 - **File:** stocks_all.json
-- **Size:** 656K
-- **Total Companies:** 3782
+- **Size:** 654K
+- **Total Companies:** 3771
 
 ## 📂 Split Files
 
 - **stocks_1.json** - Size: 175K, Companies: 1000
-- **stocks_2.json** - Size: 174K, Companies: 1000
+- **stocks_2.json** - Size: 175K, Companies: 1000
 - **stocks_3.json** - Size: 172K, Companies: 1000
-- **stocks_4.json** - Size: 136K, Companies: 782
+- **stocks_4.json** - Size: 134K, Companies: 771
 
 ## 🤖 Automation Info
-- **GitHub Action:** [📋 Stock List Update](https://github.com/testkun08080/yfinance-jp-screener/actions/runs/18488805251)
-- **Commit SHA:** 4826eb287efcbfc42194dc7df7edbb1b24998114
-- **Repository:** testkun08080/yfinance-jp-screener
+- **GitHub Action:** [📋 Stock List Update](https://github.com/carrion15717-netizen/yfinance-jp-screener/actions/runs/22257652016)
+- **Commit SHA:** 6adb65db16239ae7397bd68bf5945d776e028b2f
+- **Repository:** carrion15717-netizen/yfinance-jp-screener
