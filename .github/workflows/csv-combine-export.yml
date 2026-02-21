@@ -146,4 +146,8 @@ jobs:
         with:
           commit_message: "📊 CSV結合ファイル生成 market=${{ github.event.inputs.market_type || 'JP' }}"
 
-
+      - name: スクリーニング＆メール通知
+        run: python screen_and_notify.py
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASS: ${{ secrets.GMAIL_APP_PASS }}
